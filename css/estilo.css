@@ -1,3 +1,7 @@
+
+:root { 
+	--cor: #8C52FF; 
+}
 body{
 	background: #f4f2ec url(../img/fundo.png) repeat-x;
 	font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif ;
@@ -28,7 +32,10 @@ a:hover{
 	display: block;
 	background: url(../img/logo.png) no-repeat;
 }
-
+#logo img{
+	position: absolute;
+    width: 246px;
+}
 header{
 	padding: 15px 0;
 	height: 55px;
@@ -118,7 +125,7 @@ article#historia{lo
 }
 
 h3{
-	color: #227115;
+	color: var(--cor);
 	font-size: 1.0em;
 	margin-bottom: 15px;
 	text-transform: uppercase;
